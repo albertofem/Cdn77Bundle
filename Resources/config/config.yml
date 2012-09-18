@@ -1,0 +1,5 @@
+cdn77:
+    login: test@test.com
+    password: my_api_password
+    cdns:
+        my_alias: cdn77_id

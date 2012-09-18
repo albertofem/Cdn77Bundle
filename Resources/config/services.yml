@@ -1,0 +1,4 @@
+services:
+    cdn77:
+        class: AFM\Bundle\Cdn77Bundle\Service\Cdn77
+        arguments: [%cdn77%, %cdn77%]

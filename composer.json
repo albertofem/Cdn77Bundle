@@ -1,0 +1,24 @@
+{
+	"name": "albertofem/Cdn77Bundle",
+	"description": "Symfony 2 Cdn77Bundle, provides easy way to sync files with CDN77",
+	"keywords": ["cdn77 api library"],
+	"homepage": "http://albertofem.com",
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name": "Alberto Fernandez",
+			"email": "albertofem@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"symfony/framework-bundle": "2.1.*",
+		"symfony/yaml": "2.1.*",
+		"albertofem/cdn77-lib": "dev-master"
+	},
+	"autoload": {
+		"psr-0": { "AFM\\Bundle\\Cdn77Bundle": "" }
+	},
+	"target-dir": "AFM/Bundle/Cdn77Bundle"
+}
